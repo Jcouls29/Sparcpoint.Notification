@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Sparcpoint LLC</Authors>
+    <Description>Notification library for sending notification messages via different channels (SMS)</Description>
+    <Copyright>(c) 2021 Sparcpoint LLC. All Rights Reserved</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Jcouls29/Sparcpoint.Notification</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Jcouls29/Sparcpoint.Notification</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Sparcpoint;Notification;SMS</PackageTags>
+    <PackageReleaseNotes>2021-09-11 - Initial Release
+-----------
+Initial offering of the Notification library that provides basic email-based SMS functionality for most major US-based cellular providers.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.12.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
